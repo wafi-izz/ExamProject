@@ -21,6 +21,7 @@ public class Main {
         math.enrollStudent(s3);
         math.enrollStudent(s4);
         math.enrollStudent(s5);
+        math.unEnrollStudent(s5);
 
         System.out.println(math.getCourseFee());
         System.out.println(math.getCourseStartTime());
@@ -37,6 +38,7 @@ public class Main {
         programming.enrollStudent(s8);
         programming.enrollStudent(s9);
         programming.enrollStudent(s10);
+        programming.unEnrollStudent(s7);
 
         System.out.println(programming.getCourseFee());
         System.out.println(programming.getCourseStartTime());
